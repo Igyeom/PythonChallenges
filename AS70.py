@@ -2,7 +2,6 @@
 
 from sty import fg
 from random import choice
-from time import sleep
 
 balance = 50000
 bet = 0
@@ -52,12 +51,12 @@ while True:
         print(f"{fg.red}QUIT{fg.rs}")
         break
     bet = int(bet)
-    if bet < 50:
-        print(f"{fg.rs}Bet at least {fg.li_green}$50{fg.rs}, or go play a game you can afford.")
-        while bet < 50:
+    if bet < 500:
+        print(f"{fg.rs}Bet at least {fg.li_green}$500{fg.rs}, or go play a game you can afford.")
+        while bet < 500:
             bet = int(input(f"{fg.rs}Bet how much? {fg.li_green}$"))
-            print(f"{fg.rs}Bet at least {fg.li_green}$50{fg.rs}, or go play a game you can afford.")
-    if bet > balance:
+            print(f"{fg.rs}Bet at least {fg.li_green}$500{fg.rs}, or go play a game you can afford.")
+    elif bet > balance:
         print(f"{fg.red}Your balance may be too low.")
         while bet > balance:
             bet = int(input(f"{fg.rs}Bet how much? {fg.li_green}$"))
