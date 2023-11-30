@@ -1,5 +1,3 @@
-# This Blackjack game may require a terminal that supports 8-bit colour formatting. Use a VSCode terminal, which guarantees 24-bit colour formatting.
-
 from sty import fg
 from random import choice
 
@@ -31,8 +29,9 @@ def get_total(hand):
 
 def random_card():
     suit = choice(["♠", "♥", "♣", "♦"])
+    reds = ["♥", "♦"]
     value = choice(["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"])
-    return {"suit": suit, "value": value, "display": f"{fg.rs}{fg.red * (suit in ["♥", "♦"])}{value}{suit}{fg.rs}"}
+    return {"suit": suit, "value": value, "display": f"{fg.rs}{fg.red * (suit in reds)}{value}{suit}{fg.rs}"}
 
 print("\033c", end="\033]A")
 print(f"{fg.rs}Black{fg.red}jack{fg.rs}")
@@ -42,7 +41,7 @@ while True:
     print("\033c", end="\033]A")
     print(f"{fg.rs}Black{fg.red}jack{fg.rs}")
     print(f"Balance: {fg.li_green}${balance}{fg.rs}")
-    
+
     dealer_total = choice([17, 18, 18, 18, 19, 19, 19, 20, 20, 20, 20, 21, 21])
 
     bet = input(f"{fg.rs}Bet how much? {fg.li_green}$")
@@ -61,7 +60,7 @@ while True:
         while bet > balance:
             bet = int(input(f"{fg.rs}Bet how much? {fg.li_green}$"))
             print(f"{fg.red}Your balance may be too low.")
-    
+
     balance -= bet
 
     cards = [random_card(), random_card()]
