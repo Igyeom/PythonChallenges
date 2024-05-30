@@ -3,7 +3,7 @@
 All the Python Challenges source code by Ian 9L. **Top 10** in GamesMasters Leaderboards, over **7000 points** obtained so far.
 
 ## To-do:
-- A203 (100pts)
+~~- A203 (100pts)~~
 - AS59 (150pts)
 - AS61 (125pts)
 - AS66 (75pts)
@@ -14,4 +14,4 @@ All the Python Challenges source code by Ian 9L. **Top 10** in GamesMasters Lead
 - MT16 (50pts)
 - Guided Activites
 
-0/650
+100/650
