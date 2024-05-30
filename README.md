@@ -4,7 +4,7 @@ All the Python Challenges source code by Ian 9L. **Top 10** in GamesMasters Lead
 
 ## To-do:
 - ~~A203 (100pts)~~
-- AS59 (150pts)
+- ~~AS59 (150pts)~~
 - AS61 (125pts)
 - AS66 (75pts)
 - MT04 (35pts)
