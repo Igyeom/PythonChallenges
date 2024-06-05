@@ -1,6 +1,6 @@
 # Python Challenges
 
-All the Python Challenges source code by Ian 9L. **Top 10** in GamesMasters Leaderboards, over **7000 points** obtained so far.
+All the Python Challenges source code by Ian 9L. **Top 5** in GamesMasters Leaderboards, over **9000 points** obtained so far.
 
 ## To-do:
 - ~~A203 (100pts)~~
