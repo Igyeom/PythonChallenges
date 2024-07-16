@@ -9,6 +9,7 @@ while s!="oiuroieurpyejuvm":
     else:
       continue
     ans += 1
+print(ans)
 
 
 # note: you must feed the input file into stdin (standard input)
