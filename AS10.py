@@ -3,7 +3,7 @@ ans=0
 while s!="oiuroieurpyejuvm":
   s=input()
   if "ab" in s or "cd" in s or "pq" in s or "xy" in s: continue
-  elif sum([set(s).count(i) for i in "aeiou"]) >= 3:
+  if sum([s.count(i) for i in "aeiou"]) >= 3:
     for i in range(1, len(s)):
       if s[i-1] == s[i]: break
     else:
