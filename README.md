@@ -5,9 +5,9 @@ The Python Challenges source files by Ian 10L. **Top 5** in GamesMasters Leaderb
 ## To-do:
 - ~~A203 (100pts)~~
 - ~~AS59 (150pts)~~
-- AS60 (125pts)
+- ~~AS60 (125pts)~~
 - ~~AS61 (125pts)~~
-- AS67 (200pts)
+- ~~AS67 (200pts)~~
 - ~~MT04 (35pts)~~
 - ~~MT05 (35pts)~~
 - ~~MT06 (40pts)~~
@@ -16,4 +16,4 @@ The Python Challenges source files by Ian 10L. **Top 5** in GamesMasters Leaderb
 - A262 (350pts)
 - Guided Activites
 
-575/900
+900/1250
