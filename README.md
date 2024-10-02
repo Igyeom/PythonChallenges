@@ -13,6 +13,7 @@ The Python Challenges source files by Ian 10L. **Top 5** in GamesMasters Leaderb
 - ~~MT06 (40pts)~~
 - ~~MT12 (40pts)~~
 - ~~MT16 (50pts)~~
+- A262 (350pts)
 - Guided Activites
 
 575/900
