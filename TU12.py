@@ -1,5 +1,4 @@
 # Exercise 1
-
 l = [45, 65, 76, 7]
 print(", ".join(map(str,l)))
 
