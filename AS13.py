@@ -1,0 +1,6 @@
+sales = int(input("Total number of sales made: "))
+cogs = int(input("Total cost of goods sold: "))
+expenses = int(input("Total cost of operating expenses: "))
+revenue = int(input("Total revenue made: "))
+print(f"GPM: {(revenue-cogs)/sales*100:.2f}%")
+print(f"NPM: {(revenue-cogs-expenses)/sales*100:.2f}%")
