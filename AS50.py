@@ -16,7 +16,7 @@ def del_car():
         for row in cur:
             print(row, end=' ')
         print()
-        confirm = input("(y/n) ")
+        confirm = input("(y/n) ") # bonus points where
         if confirm.lower() == "y":
             conn.execute("DELETE FROM Cars WHERE id = ?", (DeleteCar,))
             print("Successfully removed the record.")
