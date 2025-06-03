@@ -1,5 +1,5 @@
 // For how to provide input, see sample cases at https://www.acmicpc.net/problem/1991
-// This program demonstrates preorder, inorder, postorder in the binary tree.a
+// This program demonstrates preorder, inorder, postorder in the binary tree.
 
 #include <bits/stdc++.h>
 
