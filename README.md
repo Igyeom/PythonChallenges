@@ -1,5 +1,5 @@
 # Python Challenges
-The Python Challenges source files by Ian 10L. **1st place** in GamesMasters Leaderboards, over **14000 points** obtained so far.
+The Python Challenges source files by Ian 12M. **1st place** in GamesMasters Leaderboards, over **14000 points** obtained so far.
 
 ## How to run the programs
 Some programs may not work on their own, due to reasons such as requiring input files. Therefore, it is **strongly recommended** that you clone the repository (download the entire repo as ZIP) before testing them out. You must have [Python 3](https://python.org/downloads) installed for most challenges, and because of f-strings, you likely need to have Python 3.6+ installed.
